@@ -19,7 +19,7 @@ def process(path_file, instance):
 
 
 def remove(instance):
-    if instance.__len__() < 0:
+    if instance.__len__() <= 0:
         print("Não há elementos")
         return None
 
